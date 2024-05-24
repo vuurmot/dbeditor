@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Editor/DBEditor.uss?fileID=7433441132597879392&amp;guid=fe0b644c6c2bdfa498f26d62eef7322e&amp;type=3#DBEditor" />
+    <ui:Label text="Global database" name="Label" class="custom-label" style="height: 29px; width: 158px; white-space: nowrap;" />
+    <ui:VisualElement style="flex-grow: 1; flex-direction: row; align-self: auto; justify-content: flex-start; height: 100%;">
+        <ui:VisualElement name="ButtonGroup" style="flex-grow: 1; width: 10%; max-width: 100px;">
+            <ui:Button text="Actor" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ActorsTab" />
+            <ui:Button text="Items" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ItemsTab" />
+            <ui:Button text="Quests" parse-escape-sequences="true" display-tooltip-when-elided="true" name="QuestsTab" />
+            <ui:Button text="Events" parse-escape-sequences="true" display-tooltip-when-elided="true" name="EventsTab" />
+            <ui:Button text="Skills" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SkillsTab" />
+        </ui:VisualElement>
+        <ui:VisualElement name="MainContent" style="flex-grow: 1; flex-direction: row;" />
+    </ui:VisualElement>
+</ui:UXML>

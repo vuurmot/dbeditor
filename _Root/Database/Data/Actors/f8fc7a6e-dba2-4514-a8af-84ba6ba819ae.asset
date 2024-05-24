@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b481baf94f816d4e8a1cbce5d3b85b2, type: 3}
+  m_Name: f8fc7a6e-dba2-4514-a8af-84ba6ba819ae
+  m_EditorClassIdentifier: 
+  GUID: f8fc7a6e-dba2-4514-a8af-84ba6ba819ae
+  Name: hja
+  ActorType: 0
+  Sprite: {fileID: 0}
+  Comments: 
+  DateCreated: 5/23/2024 10:04:40 PM

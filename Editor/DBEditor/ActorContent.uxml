@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="ActorContent" style="flex-grow: 1; flex-direction: row; width: 100%; height: auto;">
+        <ui:VisualElement style="flex-grow: 1; flex-direction: row; height: auto;">
+            <ui:VisualElement style="flex-grow: 1; width: 50%;">
+                <ui:ListView name="ActorList" style="background-color: rgb(255, 255, 255); width: auto; height: 90%;" />
+                <ui:Button text="Create New" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CreateNew" />
+            </ui:VisualElement>
+            <ui:VisualElement name="ActorSetting" style="flex-grow: 1; background-color: rgb(255, 255, 255); width: 50%;">
+                <ui:Label tabindex="-1" text="Name" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                <ui:TextField picking-mode="Ignore" label="NameField" value="filler text" name="NameField" />
+                <ui:Label tabindex="-1" text="Actor Type" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ActorType" />
+                <ui:TextField picking-mode="Ignore" label="TypeField" value="filler text" name="TypeField" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
